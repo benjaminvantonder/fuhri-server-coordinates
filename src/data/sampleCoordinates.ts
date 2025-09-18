@@ -11,7 +11,7 @@ export const sampleCoordinates: Coordinate[] = [
     dimension: "overworld",
     type: "natural",
     tags: ["diamonds", "cave", "mining"],
-    discoveredBy: "Nicolas Alberts",
+    discoveredBy: "Nicolas",
     dateDiscovered: "2025-09-19",
   },
 ];
