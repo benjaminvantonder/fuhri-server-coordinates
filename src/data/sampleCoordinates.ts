@@ -10,7 +10,7 @@ export const sampleCoordinates: Coordinate[] = [
     z: 215,
     dimension: "overworld",
     type: "natural",
-    tags: ["diamonds", "cave", "mining"],
+    tags: ["Monument", "Water", "Ocean"],
     discoveredBy: "Nicolas Alberts",
     dateDiscovered: "2025-09-19",
   },
