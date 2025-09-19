@@ -27,4 +27,17 @@ export const sampleCoordinates: Coordinate[] = [
     discoveredBy: "Almal",
     dateDiscovered: "2025-09-19",
   },
+  {
+    id: "3",
+    name: "End Portal",
+    description: "Portal na die End Dimension toe",
+    x: -1655,
+    y: 25,
+    z: 1011,
+    dimension: "overworld",
+    type: "natural",
+    tags: ["Portal", "Risky", "Overworld"],
+    discoveredBy: "Triston",
+    dateDiscovered: "2025-09-19",
+  },
 ];
