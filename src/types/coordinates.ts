@@ -5,13 +5,15 @@ export interface Coordinate {
   x: number;
   y: number;
   z: number;
-  dimension: 'overworld' | 'nether' | 'end';
-  type: 'natural' | 'man-made';
+  nether_x: number;
+  nether_z: number;
+  dimension: "overworld" | "nether" | "end";
+  type: "natural" | "man-made";
   tags: string[];
   discoveredBy?: string;
   dateDiscovered?: string;
   image?: string;
 }
 
-export type FilterType = 'all' | 'natural' | 'man-made';
-export type DimensionFilter = 'all' | 'overworld' | 'nether' | 'end';
+export type FilterType = "all" | "natural" | "man-made";
+export type DimensionFilter = "all" | "overworld" | "nether" | "end";
