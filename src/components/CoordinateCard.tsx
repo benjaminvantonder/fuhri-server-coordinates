@@ -94,7 +94,8 @@ const CoordinateCard: React.FC<CoordinateCardProps> = ({
               {coordinate.z}
             </div>
           </div>
-        </div>
+        </div>{" "}
+        
       </div>
 
       <div className="flex items-start justify-between mb-4">
